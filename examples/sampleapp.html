@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabs - AngularJS reusable UI component</title>
+        <meta charset="UTF-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+
+        <script src="../dist/debug/vstabs-0.0.1.js" type="text/javascript"></script>
+        <link href="../dist/debug/vstabs-0.0.1.css" rel="stylesheet" type="text/css"/>
+
+        <script src="sampleapp.js"></script>
+        <link href="sampleapp.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body ng-app="sampleapp">
+        <h3>Tabs - AngularJS reusable UI component</h3>
+
+        <div ng-controller="samplectrl">
+            <vstabs options="opt">
+                <vstabpage title="Name">
+                    <label for="firstname">First name</label><br/>
+                    <div class="inputCont"><input id="firstname" ng-model="values.firstname" placeholder="Type first name" type="text"></div>
+                    <label for="lastname">Last name</label><br/>
+                    <div class="inputCont"><input id="lastname" ng-model="values.lastname" placeholder="Type last name" type="text"></div>
+                    <label for="gender">Gender</label><br/>
+                    <select id="gender" ng-model="values.gender" ng-options="gender.value as gender.label for gender in [{label: 'Choose', value:''},{label: 'Male', value:'male'},{label: 'Female', value:'female'}]"></select><br/>
+                </vstabpage>
+
+                <vstabpage title="Address">
+                    <label for="streetaddress">Street address</label><br/>
+                    <div class="inputCont"><input id="streetaddress" ng-model="values.streetaddress" placeholder="Type street address" type="text"></div>
+                    <label for="zip">Zip</label><br/>
+                    <div class="inputCont"><input id="zip" ng-model="values.zip" placeholder="Type zip" type="text"></div>
+                    <label for="city">City</label><br/>
+                    <div class="inputCont"><input id="city" ng-model="values.city" placeholder="Type city" type="text"></div>
+                </vstabpage>
+
+                <vstabpage title="Email & Phone">
+                    <label for="email">Email</label><br/>
+                    <div class="inputCont"><input id="email" ng-model="values.email" placeholder="Type email" type="text"></div>
+                    <label for="phone">Phone</label><br/>
+                    <div class="inputCont"><input id="phone" ng-model="values.phone" placeholder="Type phone number" type="text"></div>
+                </vstabpage>
+
+            </vstabs>
+
+        </div>
+
+    </body>    
+
+</html>

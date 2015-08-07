@@ -1,0 +1,6 @@
+<div class="vstabs">
+    <div class="vstabpages">
+        <div class="vstabpage" ng-repeat="p in pages" ng-style="{'width': 100/pages.length + '%'}" ng-class="{vstabactive:p.visible}" ng-click="tabClicked(p,$index)" ng-keydown="keyDown($event,p,$index)" tabindex="0">{{p.title}}</div>
+    </div>
+    <div class="vstabcontent" ng-transclude></div>
+</div>

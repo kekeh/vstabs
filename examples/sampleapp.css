@@ -1,0 +1,64 @@
+body {
+    margin: 20px 100px;
+    min-width: 200px;
+}
+
+h3, h5 {
+    background-color: #78FA89;
+    padding: 8px;
+    border: 1px solid #AAA;
+    border-radius: 3px;
+}
+
+p {
+    background-color: #FAFAFA;
+    padding: 4px;
+    border: 1px solid #AAA;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.vstabs input,
+.vstabs select {
+    background-color: #F0FFF0 !important;
+    margin-bottom: 14px;
+    width: 100%;
+    padding: 5px 0 5px 5px;
+    border: 1px solid #AAA;
+}
+
+.vstabs select {
+    width: 100%;
+    height: 27px;
+}
+
+.vstabs .inputCont {
+    padding-right: 7px;
+}
+
+.vstabs table {
+    width: 100%;
+    border-collapse: collapse;
+    display: table;
+    color: #000;
+    line-height: 1;
+}
+
+.vstabs table th {
+    background-color: #EEE;
+    heigth: 30px;
+}
+
+.vstabs table td {
+    text-align: left;
+}
+
+.vstabs table,
+.vstabs table th,
+.vstabs table td {
+    padding: 5px;
+}
+
+.vstabs label {
+    color: #000;
+}

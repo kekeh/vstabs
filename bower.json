@@ -1,0 +1,37 @@
+{
+  "name": "vstabs",
+  "description": "Tabs - AngularJS reusable UI component",
+  "version": "0.0.1",
+  "homepage": "http://kekeh.github.io/vstabs",
+  "license": "MIT",
+  "authors": [
+    "kekeh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kekeh/vstabs.git"
+  },
+  "main": [
+    "dist/min/vstabs-0.0.1.min.css",
+    "dist/min/vstabs-0.0.1.min.js"
+  ],
+  "keywords": [
+    "AngularJS",
+    "vstabs",
+    "tabs"
+  ],
+  "ignore": [
+    "**/.*",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "node_modules",
+    "bower_components",
+    "css",
+    "js",
+    "templates",
+    "test"
+  ],
+  "dependencies": {
+    "angular": "1.4.x"
+  }
+}
