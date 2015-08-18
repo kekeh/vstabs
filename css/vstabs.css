@@ -38,10 +38,7 @@
     outline: none;
 }
 
-.vstabs .vstabpage:hover {
-
-}
-
+.vstabs .vstabpage:hover,
 .vstabs .vstabpage:focus {
     color: #1589FF;
 }
@@ -72,8 +69,6 @@
     }
 
     .vstabs .vstabactive {
-        border: none;
-        border-radius: 0;
-        border-bottom: 1px solid #444;
+        border: 1px solid #777;
     }
 }
