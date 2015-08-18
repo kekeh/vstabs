@@ -1,13 +1,13 @@
 /* 
 *  Name: vstabs 
 *  Description: Tabs - AngularJS reusable UI component 
-*  Version: 0.0.1 
+*  Version: 0.0.2 
 *  Author: kekeh 
 *  Homepage: http://kekeh.github.io/vstabs 
 *  License: MIT 
-*  Date: 2015-08-07 
+*  Date: 2015-08-18 
 */ 
-angular.module('template-vstabs-0.0.1.html', ['templates/vstabpage.html', 'templates/vstabs.html']);
+angular.module('template-vstabs-0.0.2.html', ['templates/vstabpage.html', 'templates/vstabs.html']);
 
 angular.module("templates/vstabpage.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("templates/vstabpage.html",
@@ -29,7 +29,7 @@ angular.module("templates/vstabs.html", []).run(["$templateCache", function($tem
  * @name vstabs
  * @description vstabs is a module of the vstabs.
  */
-angular.module('vstabs', ["template-vstabs-0.0.1.html"])
+angular.module('vstabs', ["template-vstabs-0.0.2.html"])
 
 /**
  * @ngdoc object
