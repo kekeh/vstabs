@@ -2,7 +2,7 @@
   "author": "kekeh",
   "description": "Tabs - AngularJS reusable UI component",
   "name": "vstabs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "homepage": "http://kekeh.github.io/vstabs",
   "dependencies": {

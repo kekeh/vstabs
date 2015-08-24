@@ -1,4 +1,4 @@
-# vstabs v. 0.0.2
+# vstabs v. 0.0.3
 
 **Tabs - AngularJS reusable UI component**
 
@@ -7,10 +7,10 @@ Simple AngularJS directive which implements the tabs. Depends on only the Angula
 
 ## Usage
 
-* include the **vstabs-0.0.2.min.js** and the **vstabs-0.0.2.min.css** files into your project. See the **Build project** and the **Installation** chapters below.
+* include the **vstabs-0.0.3.min.js** and the **vstabs-0.0.3.min.css** files into your project. See the **Build project** and the **Installation** chapters below.
 ```html
-<script src="vstabs-0.0.2.min.js"></script>
-<link href="vstabs-0.0.2.min.css" rel="stylesheet" type="text/css">
+<script src="vstabs-0.0.3.min.js"></script>
+<link href="vstabs-0.0.3.min.css" rel="stylesheet" type="text/css">
 ```
 * inject the **vstabs** module into your application module.
 ```js
@@ -117,7 +117,7 @@ bower install vstabs
 * Opera 28.0
 * Mobile Safari 8
 
-## Licence
+## License
 * License: MIT
 
 ## Author
